@@ -140,6 +140,9 @@ console.log(avenger);
 avengers.shift();
 console.log(avengers);
 
+avengers.splice(0, 0, "IRONMAN");
+console.log(avengers);
+
 // 1.3 Alert numero de elementos en el array usando la propiedad correcta de Array.
 // const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
